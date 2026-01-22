@@ -1,0 +1,22 @@
+-----------------------------------------------------(multilevel inheritance)
+package encapsulation;
+
+public class GrandParent {
+    void grand() {
+        System.out.println("grand parent property");
+        
+    }
+}
+public class Parent extends GrandParent {
+    void parent() {
+        System.out.println("parent property");
+    }
+}
+public class Child extends Parent {
+    public static void main(String[] args) {
+        Child c = new Child();
+        c.parent();
+        c.grand();
+        
+    }
+} 
