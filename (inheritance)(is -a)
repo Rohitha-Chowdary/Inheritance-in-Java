@@ -1,0 +1,17 @@
+---------------------------------------------(inheritance)(is -a)
+package encapsulation;
+public class Doctor extends Person {
+    public staticvoid main(String[] args) {
+    Doctor d = new Doctor();
+    system.out.println(d.name);
+    }
+}
+
+public class Person {
+    String name;
+    
+    person(String name){
+        this.name = name;
+    }
+        
+}
