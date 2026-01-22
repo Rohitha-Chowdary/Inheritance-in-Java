@@ -1,0 +1,19 @@
+---------------------------------------------(super class)
+package encapsulation; 
+
+public class Fruit {
+     String name;
+     
+     Fruit(String name) {
+         this.name = name;
+     }
+ }
+public class Apple extends Fruit {
+    apple() {
+        super("apple") ;
+    }
+    public static void main(String[] args) {
+        Apple a = new Apple();
+        system.out.println(a.name);
+    }
+}
